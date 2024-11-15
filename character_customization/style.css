@@ -1,0 +1,11 @@
+.container {
+    text-align: center;
+}
+
+#character-canvas {
+    border: 1px solid black;
+}
+
+h1 {
+    color: red; 
+}

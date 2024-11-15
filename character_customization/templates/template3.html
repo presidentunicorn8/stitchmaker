@@ -1,0 +1,42 @@
+{% load static %}
+<html>
+ <head>
+    <link rel="stylesheet" href="{% static 'css/style3.css' %}">
+ </head>
+ <body>
+  <div class="container">
+   <div class="sidebar">
+    <button>
+     Go to clothing store
+    </button>
+    <button>
+     Upload Items
+    </button>
+    <button>
+     Share outfit
+    </button>
+    <button>
+     settings
+    </button>
+   </div>
+    <canvas id="figure" alt="figure"></canvas>
+    <div class="tabs">
+     <div class="tabs-header">
+      <div>
+       Bases
+      </div>
+      <div>
+       Designs
+      </div>
+      <div>
+       Purchase
+      </div>
+     </div>
+     <div class="tabs-content">
+     </div>
+    </div>
+   </div>
+  </div>
+<script src="{% static 'js/script3.js' %}"></script>
+ </body>
+</html>
